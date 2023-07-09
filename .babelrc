@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage",
+        "corejs": 3
+      }
+    ],
+    // runtime 是否默认引入jsx转换函数
+    ["@babel/preset-react", { "runtime": "automatic" }],
+    ["@babel/preset-typescript"]
+  ]
+}
